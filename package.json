@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/Liqihan/style-normalize/issues"
   },
-  "homepage": "https://github.com/Liqihan/style-normalize#readme"
+  "homepage": "https://github.com/Liqihan/style-normalize#readme",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "extend": "^3.0.0",
+    "lodash": "^4.17.4",
+    "q": "^1.5.0",
+    "request": "^2.81.0"
+  }
 }
