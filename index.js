@@ -44,6 +44,7 @@ StyleChange.prototype.normalize = function (content) {
             })
         } else {
             var newArr = _.take(self.imgArr, 5).concat(_.takeRight(self.imgArr,5));
+            // 识别图片是否是二维码的地址
             request.post( self.qrRecognitionServerApi + "/isQRCode",{
                 form: {
                     'imageUrls':JSON.stringify(newArr)
