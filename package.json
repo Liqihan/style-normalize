@@ -1,0 +1,25 @@
+{
+  "name": "style-normalize",
+  "version": "1.0.0",
+  "description": "文章格式归一化，html多余样式和标签清洗",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Liqihan/style-normalize.git"
+  },
+  "keywords": [
+    "样式清洗",
+    "格式化",
+    "归一化",
+    "html"
+  ],
+  "author": "grove.liqihan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liqihan/style-normalize/issues"
+  },
+  "homepage": "https://github.com/Liqihan/style-normalize#readme"
+}
